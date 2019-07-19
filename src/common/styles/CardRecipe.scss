@@ -1,0 +1,33 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    margin: 32px;
+    &__picture{
+        height: 250px; 
+        background-image: url('../../_home/assets/Food.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+    }
+
+    &__text{
+        margin-top: 8px;
+        margin-bottom: 8px;
+
+        &__title{
+            font-weight: 700;
+            margin-bottom: 8px;
+            margin-top: 8px;
+        }
+    }
+}
+
+.likes{
+    display: flex;
+    flex-direction: row;
+
+    &__icon{
+        margin-right: 4px;
+    }
+}

@@ -1,0 +1,27 @@
+.trending{
+    &__left{
+        &__picture{
+            flex:1;
+            background-image: url('../../_home/assets/Food.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+        }
+        &__tag{
+            margin-top:12px;
+        }
+        &__title{
+            margin-top: 8px;
+            font-weight: 700;
+        }
+    }
+}
+
+.heart{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+        &__icon{
+            margin-right: 4px;
+        }
+    }

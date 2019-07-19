@@ -1,0 +1,24 @@
+@import "../../style/variables.scss";
+
+.tagActive{
+    
+    border-radius: 20px;
+    border: 1px solid $color-grey-medium-light;
+    display: inline-block;
+
+    color: #000;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.tagActive:hover{
+    
+    border-radius: 20px;
+    border: 1px solid $color-green;
+    background-color: $color-green;
+
+    color: #fff;
+}

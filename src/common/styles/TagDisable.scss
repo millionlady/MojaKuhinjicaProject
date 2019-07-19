@@ -1,0 +1,12 @@
+@import "../../style/variables.scss";
+
+.tag{
+    background-color: $color-grey-light;
+    border-radius: 10px;
+    display: inline-block;
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+}

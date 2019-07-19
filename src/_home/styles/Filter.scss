@@ -1,0 +1,32 @@
+@import '../../style/variables.scss';
+
+.filter{
+display: flex;
+flex-direction: column;
+margin-left: 32px;
+color: $color-grey-medium-dark;
+
+
+    &__tab{
+
+    display: flex;
+        
+        &__text{
+            margin-right: 20px;
+            cursor: pointer;
+            padding-bottom: 4px;
+            border-bottom: 3px solid transparent;
+
+        }
+        &__text:active{
+            color: #000;
+            border-bottom: 3px solid black;
+        }
+    }
+
+    &__tag{
+        margin-top: 16px;
+        cursor: pointer;
+    }
+    
+}
