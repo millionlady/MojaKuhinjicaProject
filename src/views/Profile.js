@@ -1,4 +1,6 @@
 import React from 'react';
+import ProfileInfo from '../_profile/components/ProfileInfo';
+import MyPosts from '../_profile/components/MyPosts';
 
 class Profile extends React.Component {
 
@@ -6,7 +8,8 @@ class Profile extends React.Component {
     render() {
         return (
             <div>
-                <h1>Profile</h1>
+                <ProfileInfo></ProfileInfo>
+                <MyPosts></MyPosts>
             </div>
         )
     }

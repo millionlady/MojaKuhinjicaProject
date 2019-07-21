@@ -1,0 +1,12 @@
+.posts{
+    display: flex;
+    flex-direction: column;
+    &__title{
+        font-weight: 700;
+        margin-top: 16px;
+        margin-left: 32px;
+    }
+    &__list{
+        display: flex;
+    }
+}

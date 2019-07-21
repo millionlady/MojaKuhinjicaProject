@@ -13,14 +13,14 @@ class Trending extends React.Component {
                 <h3 className="title">Popularno</h3>
                 <div className="trending">
                     <div className="trending__left">
-                        <TrendingBig title="Najpopularniji recept 1212" likes={3749}></TrendingBig>
+                        <TrendingBig title="Torta sa malinama i bijelom čokoladom" likes={3749}></TrendingBig>
                     </div>
 
                     <div className="trending__right">
 
-                        <TrendingSmall title="Posirane sssss nesto" likes={523}></TrendingSmall>
-                        <TrendingSmall title="Posirane sssss nesto 2" likes={312}></TrendingSmall>
-                        <TrendingSmall title="Pohovane sssss nesto" likes={231}></TrendingSmall>
+                        <TrendingSmall title="Ljetni kolač sa grčkim jogurtom" likes={523}></TrendingSmall>
+                        <TrendingSmall title="Ljetni kolač sa grčkim jogurtom" likes={312}></TrendingSmall>
+                        <TrendingSmall title="Ljetni kolač sa grčkim jogurtom" likes={231}></TrendingSmall>
 
                     </div>
                 </div>

@@ -1,0 +1,32 @@
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__avatar{
+        width: 160px;
+        height: 160px;
+        margin-top: 32px;
+    }
+    &__name{
+        font-weight: 700;
+        margin-top: 16px;
+    }
+    &__email{
+        margin-top: 8px;
+    }
+    &__button{
+        border-radius: 12px;
+        background-color: transparent;
+        outline: 3px;
+        margin-top: 16px;
+        cursor: pointer;
+        border: 2px solid black;
+
+        padding-left: 16px;
+        padding-right: 16px;
+
+        padding-bottom: 8px;
+        padding-top: 8px;
+    }
+}
