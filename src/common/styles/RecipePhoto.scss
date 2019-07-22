@@ -1,0 +1,57 @@
+    .recipePhoto{
+    display: flex;
+    flex-direction: column;
+    &__photo{
+        //flex:1;
+        width: 1000px;
+        height: 500px;
+        background-image: url('../../_home/assets/Food.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+    }
+    &__tag{
+        margin-top:12px;
+    }
+    &__title{
+        margin-top: 8px;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    }
+
+    .icons{
+        display: flex;
+
+        &__heart{
+        display: flex;
+        align-items: center;
+        margin-top: 8px;
+            &__icon{
+                margin-right: 4px;
+            }
+        }
+
+        &__time{
+            display: flex;
+            align-items: center;
+            margin-top: 8px;
+                &__icon{
+                    margin-right: 4px;
+                    margin-left: 16px;
+                }
+            }
+
+        &__person{
+            display: flex;
+            align-items: center;
+            margin-top: 8px;
+                &__icon{
+                    margin-right: 4px;
+                    margin-left: 16px;
+                }
+            }
+    }
+    
+    

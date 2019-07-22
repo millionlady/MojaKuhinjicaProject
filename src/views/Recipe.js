@@ -1,12 +1,16 @@
 import React from 'react';
+import Main from '../_recipe/components/RecipeMain';
+import Side from '../_recipe/components/RecipeSide';
+
 
 class Recipe extends React.Component {
 
 
     render() {
         return (
-            <div>
-                <h1>Recipe</h1>
+            <div style={{ display: 'flex' }}>
+                <Main></Main>
+                <Side></Side>
             </div>
         )
     }
