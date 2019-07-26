@@ -1,4 +1,6 @@
 import React from 'react';
+import PhotoTags from '../_upload/components/PhotoTags';
+import Inputs from '../_upload/components/Inputs';
 
 class Upload extends React.Component {
 
@@ -6,7 +8,7 @@ class Upload extends React.Component {
     render() {
         return (
             <div>
-                <h1>Upload</h1>
+                <PhotoTags></PhotoTags>
             </div>
         )
     }

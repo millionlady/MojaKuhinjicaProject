@@ -3,19 +3,24 @@ import '../styles/TrendingBig.scss';
 import TagDisable from './TagDisable';
 
 import Heart from '../../_home/assets/heart-outlined.svg';
-import Food from '../../_home/assets/Food.jpg';
 
 class TrendingBig extends React.Component {
+
+    renderTag = () => {
+        const { tags } = this.props;
+
+        return tags.map((el) => <TagDisable name={el.name}></TagDisable>)
+    }
 
     render() {
         const { title, likes } = this.props;
 
         return (
-            <div>
+            <div className="trending__left">
                 <div className="trending__left__picture"></div>
                 <div>
                     <div className="trending__left__tag">
-                        <TagDisable></TagDisable>
+                        {this.renderTag()}
                     </div>
 
                     <h1 className="trending__left__title">{title}</h1>

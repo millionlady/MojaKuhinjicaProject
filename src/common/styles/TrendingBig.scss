@@ -1,5 +1,9 @@
 .trending{
     &__left{
+        display: flex;
+        flex-direction: column;
+        flex:1;
+
         &__picture{
             flex:1;
             background-image: url('../../_home/assets/Food.jpg');

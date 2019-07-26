@@ -8,29 +8,36 @@ import Person from '../../_recipe/assets/user.svg';
 
 class RecipePhoto extends React.Component {
 
+    renderTag = () => {
+        const { tags } = this.props;
+
+        return tags.map((el) => <TagDisable name={el.name}></TagDisable>)
+    }
 
     render() {
+
+        const { title, likes, time, people } = this.props;
         return (
             <div className="recipePhoto">
                 <div className="recipePhoto__photo"></div>
                 <div className="recipePhoto__tag">
-                    <TagDisable></TagDisable>
+                    {this.renderTag()}
                 </div>
 
-                <h1 className="recipePhoto__title">Bla ahahjhsjd jeheua</h1>
+                <h1 className="recipePhoto__title">{title}</h1>
 
                 <div className="icons">
                     <div className="icons__heart">
                         <img src={Heart} className="icons__heart__icon"></img>
-                        <h3>121</h3>
+                        <h3>{likes}</h3>
                     </div>
                     <div className="icons__time">
                         <img src={Time} className="icons__time__icon"></img>
-                        <h3>1212</h3>
+                        <h3>{time}</h3>
                     </div>
                     <div className="icons__person">
                         <img src={Person} className="icons__time__icon"></img>
-                        <h3>211</h3>
+                        <h3>{people}</h3>
                     </div>
                 </div>
             </div>

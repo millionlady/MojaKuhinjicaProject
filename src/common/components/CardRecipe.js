@@ -5,15 +5,22 @@ import Heart from '../../_home/assets/heart-outlined.svg';
 
 class CardRecipe extends React.Component {
 
+    renderTag = () => {
+        const { tags } = this.props;
+
+        return tags.map((el) => <TagDisable name={el.name}></TagDisable>)
+    }
+
 
     render() {
 
         const { title, likes } = this.props;
+
         return (
             <div className="card">
                 <div className="card__picture"></div>
                 <div className="card__text">
-                    <TagDisable></TagDisable>
+                    {this.renderTag()}
                     <h3 className="card__text__title">{title}</h3>
                     <div className="likes">
                         <img src={Heart} className="likes__icon"></img>

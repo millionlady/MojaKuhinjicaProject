@@ -4,9 +4,12 @@ import '../styles/TagDisable.scss';
 class TagDisable extends React.Component {
 
     render() {
+
+        const { name } = this.props;
+
         return (
             <div className="tag">
-                <p>#pecivo</p>
+                <p>{name}</p>
             </div>
         )
     }

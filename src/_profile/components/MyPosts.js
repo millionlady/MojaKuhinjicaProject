@@ -2,9 +2,17 @@ import React from 'react';
 import CardRecipe from '../../common/components/CardRecipe';
 
 import '../styles/MyPosts.scss';
+import myPosts from '../../views/constants/my-posts';
 
 class MyPosts extends React.Component {
 
+    renderRecipes = () => {
+        const { uploads } = this.props;
+
+        return uploads.map((el) => {
+            return <CardRecipe title={el.title} likes={el.likes} tags={el.tags} />;
+        })
+    }
 
     render() {
         return (
@@ -12,9 +20,7 @@ class MyPosts extends React.Component {
                 <div><h2 className="posts__title">Moje objave</h2></div>
 
                 <div className="posts__list">
-                    <CardRecipe title="Piletina u soya sosu sa sezamom" likes={23}></CardRecipe>
-                    <CardRecipe title="Piletina u soya sosu sa sezamom" likes={23}></CardRecipe>
-                    <CardRecipe title="Piletina u soya sosu sa sezamom" likes={23}></CardRecipe>
+                    {this.renderRecipes()}
                 </div>
             </div>
         )

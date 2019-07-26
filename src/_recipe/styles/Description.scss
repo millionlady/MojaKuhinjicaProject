@@ -1,0 +1,31 @@
+@import '../../style/variables.scss';
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    width: 70%;   
+    &__info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &__photo{
+            width: 40px;
+            height: 40px;
+        }
+        &__name{
+            margin-left: 16px;
+        }
+    }
+    &__text{
+        color: $color-grey-dark;
+        margin-top: 8px;
+        font-style: italic;
+    }
+    &__prep{
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 32px;
+    }
+}
