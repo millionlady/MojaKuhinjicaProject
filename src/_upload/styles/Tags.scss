@@ -1,0 +1,26 @@
+.tags{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    &__titleCat{
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+    &__titleMy{
+        margin-top: 16px;
+    }
+}
+.filters{
+    display: flex;
+    &__tab{
+        margin-right: 20px;
+        cursor: pointer;
+        padding-bottom: 4px;
+        border-bottom: 3px solid transparent;
+
+    }
+    &__tab:active{
+        color: #000;
+        border-bottom: 3px solid black;
+    }
+}

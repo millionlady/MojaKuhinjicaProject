@@ -1,0 +1,28 @@
+@import '../../style/variables.scss';
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    &__title{
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+    &__upload{
+        display: flex;
+        flex-direction: column;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        border: 3px dashed $color-grey-medium-dark;
+        align-items: center;
+        justify-content: center;
+        //width: 50%;
+        height: 300px;
+        &__text1{
+            margin-bottom: 16px;
+        }
+        &__text2{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}

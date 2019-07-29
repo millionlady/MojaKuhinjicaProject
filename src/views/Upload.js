@@ -7,8 +7,9 @@ class Upload extends React.Component {
 
     render() {
         return (
-            <div>
+            <div style={{ display: 'flex' }}>
                 <PhotoTags></PhotoTags>
+                <Inputs></Inputs>
             </div>
         )
     }

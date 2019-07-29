@@ -1,0 +1,27 @@
+.inputs{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+
+    &__dropdowns{
+        display: flex;
+    }
+    &__steps{
+        display: flex;
+    }
+    &__basicInp{
+        height: 40px;
+        border: 2px solid #dbdbdb;
+        border-radius: 6px;
+    }
+    &__descriptionInp{
+        height: 112px;
+        border: 2px solid #dbdbdb;
+        border-radius: 6px;
+    }
+    &__dropInp{
+        height: 40px;
+        border: 2px solid #dbdbdb;
+        border-radius: 6px;
+    }
+}
