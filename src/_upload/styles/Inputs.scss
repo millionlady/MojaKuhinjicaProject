@@ -1,3 +1,5 @@
+@import '../../style/variables.scss';
+
 .inputs{
     display: flex;
     flex-direction: column;
@@ -13,11 +15,15 @@
         height: 40px;
         border: 2px solid #dbdbdb;
         border-radius: 6px;
+        padding-left: 16px;
+        font-size: 16px;
     }
     &__descriptionInp{
-        height: 112px;
+        height: 40px;
         border: 2px solid #dbdbdb;
         border-radius: 6px;
+        padding-left: 16px;
+        font-size: 16px;
     }
     &__dropInp{
         height: 40px;
@@ -25,3 +31,14 @@
         border-radius: 6px;
     }
 }
+
+textarea, input::placeholder{
+    //font-size: 16px;
+    color: $color-grey-medium-light;
+    border-color: $color-grey-medium-light;
+}
+
+input:focus { 
+    border-color: $color-grey-dark;
+    outline: none;
+ }

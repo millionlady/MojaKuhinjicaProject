@@ -4,17 +4,29 @@ import Side from '../_recipe/components/RecipeSide';
 
 import RecipeFull from './constants/recipe-full';
 
+import { connect } from 'react-redux';
+import { getRecipeSuccess } from '../_recipe/actions/recipe-actions';
 
 class Recipe extends React.Component {
+    componentDidMount() {
+        const { setRecipesData } = this.props;
 
+        setRecipesData(RecipeFull);
+    }
     render() {
+
+        const { displayRecipe } = this.props;
+
         return (
             <div style={{ display: 'flex' }}>
-                <Main recipeDataMain={RecipeFull}></Main>
-                <Side recipeDataSide={RecipeFull}></Side>
+                <Main recipeDataMain={displayRecipe}></Main>
+                <Side recipeDataSide={displayRecipe}></Side>
             </div>
         )
     }
 }
 
-export default Recipe;
+const mapStateToProps = (state) => ({ displayRecipe: state.recipeReducer.recipeDataMain })
+const mapDispatchToProps = (dispatch) => ({ setRecipesData: (data) => dispatch(getRecipeSuccess(data)) })
+
+export default connect(mapStateToProps, mapDispatchToProps)(Recipe);
