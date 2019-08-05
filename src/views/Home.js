@@ -4,6 +4,7 @@ import { getRecipesListSuccess } from '../_home/actions/home-actions';
 import Trending from '../_home/components/Trending';
 import Filter from '../_home/components/Filter';
 import ListRecipes from '../_home/components/ListRecipes';
+import Nav from '../common/components/Nav';
 
 import '../_home/styles/Trending.scss';
 import '../_home/styles/Filter.scss';
@@ -23,6 +24,7 @@ class Home extends React.Component {
         const { kruska } = this.props;
         return (
             <div>
+                <Nav></Nav>
                 <Trending recipesBig={recipesBigData} recipesSmall={recipesSmallData}></Trending>
                 <Filter></Filter>
                 <ListRecipes recipes={kruska}></ListRecipes>
