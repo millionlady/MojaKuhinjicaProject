@@ -5,10 +5,8 @@
     margin: 32px;
     &__picture{
         height: 250px; 
-        background-image: url('../../_home/assets/Food.jpg');
-        background-size: cover;
-        background-position: center;
         border-radius: 10px;
+        object-fit: cover;
     }
 
     &__text{
@@ -19,6 +17,7 @@
             font-weight: 700;
             margin-bottom: 8px;
             margin-top: 8px;
+            font-weight: 700;
         }
     }
 }

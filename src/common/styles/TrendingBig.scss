@@ -6,10 +6,10 @@
 
         &__picture{
             flex:1;
-            background-image: url('../../_home/assets/Food.jpg');
-            background-size: cover;
-            background-position: center;
             border-radius: 10px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
         &__tag{
             margin-top:12px;

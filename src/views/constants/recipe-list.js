@@ -40,30 +40,5 @@ export default [
             }
         ]
     },
-    {
-        id: 4,
-        title: 'Naslov cetriiiiii',
-        likes: 323,
-        tags: [
-            {
-                id: 1,
-                name: 'tag1'
-            },
-            {
-                id: 2,
-                name: 'tag1'
-            }
-        ]
-    },
-    {
-        id: 5,
-        title: 'Naslov pettttstststs',
-        likes: 232,
-        tags: [
-            {
-                id: 1,
-                name: 'tag1'
-            }
-        ]
-    }
+
 ]

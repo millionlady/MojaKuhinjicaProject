@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/TrendingBig.scss';
 import TagDisable from './TagDisable';
+import Food from '../assets/food.jpg';
 
 import Heart from '../../_home/assets/heart-outlined.svg';
 
@@ -17,7 +18,7 @@ class TrendingBig extends React.Component {
 
         return (
             <div className="trending__left">
-                <div className="trending__left__picture"></div>
+                <div><img src={Food} className="trending__left__picture"></img></div>
                 <div>
                     <div className="trending__left__tag">
                         {this.renderTag()}

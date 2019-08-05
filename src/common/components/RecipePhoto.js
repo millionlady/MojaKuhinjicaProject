@@ -5,6 +5,7 @@ import '../styles/RecipePhoto.scss';
 import Heart from '../../_home/assets/heart-outlined.svg';
 import Time from '../../_recipe/assets/clock.svg';
 import Person from '../../_recipe/assets/user.svg';
+import FoodPic from '../assets/food.jpg';
 
 class RecipePhoto extends React.Component {
 
@@ -19,7 +20,7 @@ class RecipePhoto extends React.Component {
         const { title, likes, time, people } = this.props;
         return (
             <div className="recipePhoto">
-                <div className="recipePhoto__photo"></div>
+                <div><img src={FoodPic} className="recipePhoto__photo"></img></div>
                 <div className="recipePhoto__tag">
                     {this.renderTag()}
                 </div>

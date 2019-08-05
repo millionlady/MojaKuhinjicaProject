@@ -4,11 +4,11 @@
 
     &__picture{
         border-radius: 10px;
-        height: 150px;
         width: 40%;
         background-size: contain;
         background-position: center;
         margin-bottom: 32px;
+        object-fit: cover;
     }
 
     &__text{

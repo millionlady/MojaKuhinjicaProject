@@ -4,12 +4,41 @@
     display: flex;
     flex-direction: column;
     flex:1;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 58px;
 
     &__dropdowns{
         display: flex;
+        align-items: center;
+        margin-bottom: 24px;
     }
     &__steps{
         display: flex;
+    }
+    &__basicInpTitle{
+        height: 40px;
+        border: 2px solid #dbdbdb;
+        border-radius: 6px;
+        padding-left: 16px;
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+    &__basicInpPrep{
+        height: 40px;
+        border: 2px solid #dbdbdb;
+        border-radius: 6px;
+        padding-left: 16px;
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    &__basicInpIng{
+        height: 40px;
+        border: 2px solid #dbdbdb;
+        border-radius: 6px;
+        padding-left: 16px;
+        font-size: 16px;
+        margin-bottom: 24px;
     }
     &__basicInp{
         height: 40px;
@@ -19,20 +48,39 @@
         font-size: 16px;
     }
     &__descriptionInp{
-        height: 40px;
+        height: 80px;
         border: 2px solid #dbdbdb;
         border-radius: 6px;
         padding-left: 16px;
         font-size: 16px;
+        padding-top: 8px;
+        margin-bottom: 24px;
     }
     &__dropInp{
         height: 40px;
         border: 2px solid #dbdbdb;
         border-radius: 6px;
+        padding-left: 16px;
+        font-size: 16px;
+        margin-left: 12px;
+        margin-right: 32px;
+    }
+    &__steps{
+        margin-bottom: 32px;
+
+        &__button{
+            cursor: pointer;
+            margin-right: 12px;
+        }
     }
 }
 
-textarea, input::placeholder{
+input::placeholder{
+    //font-size: 16px;
+    color: $color-grey-medium-light;
+    border-color: $color-grey-medium-light;
+}
+textarea::placeholder{
     //font-size: 16px;
     color: $color-grey-medium-light;
     border-color: $color-grey-medium-light;
@@ -41,4 +89,7 @@ textarea, input::placeholder{
 input:focus { 
     border-color: $color-grey-dark;
     outline: none;
+ }
+ .labels{
+     margin-bottom: 8px;
  }
