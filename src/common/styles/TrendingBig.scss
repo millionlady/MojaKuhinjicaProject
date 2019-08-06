@@ -1,4 +1,7 @@
 .trending{
+    &__div{
+        flex: 1;
+    }
     &__left{
         display: flex;
         flex-direction: column;

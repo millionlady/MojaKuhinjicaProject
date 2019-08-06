@@ -1,6 +1,7 @@
 import React from 'react';
 import Main from '../_recipe/components/RecipeMain';
 import Side from '../_recipe/components/RecipeSide';
+import './styles/Recipe.scss';
 
 import RecipeFull from './constants/recipe-full';
 
@@ -18,7 +19,7 @@ class Recipe extends React.Component {
         const { displayRecipe } = this.props;
 
         return (
-            <div style={{ display: 'flex' }}>
+            <div className="recipeView">
                 <Main recipeDataMain={displayRecipe}></Main>
                 <Side recipeDataSide={displayRecipe}></Side>
             </div>

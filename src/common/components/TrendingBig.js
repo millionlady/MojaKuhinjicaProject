@@ -18,7 +18,7 @@ class TrendingBig extends React.Component {
 
         return (
             <div className="trending__left">
-                <div><img src={Food} className="trending__left__picture"></img></div>
+                <div className="trending__div"><img src={Food} className="trending__left__picture"></img></div>
                 <div>
                     <div className="trending__left__tag">
                         {this.renderTag()}

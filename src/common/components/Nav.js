@@ -11,9 +11,9 @@ class Nav extends React.Component {
 
         return (
             <div className="nav">
-                <img src={Logo} />
+                <img src={Logo} className="nav__logo" />
                 <ButtonAction className="nav__button"></ButtonAction>
-                <img src={ProfilePic} className="nav__picture"/>
+                <img src={ProfilePic} className="nav__picture" />
             </div>
 
         )

@@ -20,9 +20,7 @@ class TrendingSmall extends React.Component {
 
         return (
             <div className="trendingSmall">
-
                 <img src={Food} className="trendingSmall__picture" />
-
                 <div className="trendingSmall__text">
                     {this.renderTag()}
                     <h3 className="trendingSmall__text__title">{title}</h3>
