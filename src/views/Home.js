@@ -5,6 +5,7 @@ import Trending from '../_home/components/Trending';
 import Filter from '../_home/components/Filter';
 import ListRecipes from '../_home/components/ListRecipes';
 import Nav from '../common/components/Nav';
+import './styles/Home.scss';
 
 import '../_home/styles/Trending.scss';
 import '../_home/styles/Filter.scss';
@@ -23,11 +24,13 @@ class Home extends React.Component {
     render() {
         const { kruska } = this.props;
         return (
-            <div>
+            <div className="app">
                 <Nav></Nav>
-                <Trending recipesBig={recipesBigData} recipesSmall={recipesSmallData}></Trending>
-                <Filter></Filter>
-                <ListRecipes recipes={kruska}></ListRecipes>
+                <div className="wrap">
+                    <Trending recipesBig={recipesBigData} recipesSmall={recipesSmallData}></Trending>
+                    <Filter></Filter>
+                    <ListRecipes recipes={kruska}></ListRecipes>
+                </div>
             </div>
         )
     }

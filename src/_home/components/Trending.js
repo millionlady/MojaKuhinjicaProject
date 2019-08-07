@@ -1,5 +1,4 @@
 import React from 'react';
-
 import TrendingSmall from '../../common/components/TrendingSmall';
 import TrendingBig from '../../common/components/TrendingBig';
 

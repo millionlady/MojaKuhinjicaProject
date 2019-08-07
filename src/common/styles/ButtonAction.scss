@@ -1,7 +1,7 @@
 @import '../../style/variables.scss';
 
 .buttonAction{
-     outline: none;
+    outline: none;
     background-color: $color-yellow;
     border-radius: 4px;
     color: #fff;
@@ -10,4 +10,10 @@
     height: 40px;
     border: none;
     cursor: pointer;
+
+    @media (max-width:425px) {
+        width: 120px;
+        height: 30px;
+        font-size: 16px;
+    }
 }

@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
     &__title{
         font-weight: 700;
         margin-top: 48px;
@@ -9,5 +10,8 @@
     }
     &__list{
         display: flex;
+        @media (max-width:768px) {
+            flex-direction: column;
+        }
     }
 }

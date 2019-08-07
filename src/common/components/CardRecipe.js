@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/CardRecipe.scss'
+import '../styles/CardRecipe.scss';
 import TagDisable from './TagDisable';
 import Heart from '../../_home/assets/heart-outlined.svg';
 import FoodPic from '../assets/food.jpg';
@@ -21,7 +21,7 @@ class CardRecipe extends React.Component {
                 <div><img src={FoodPic} className="card__picture"></img></div>
                 <div className="card__text">
                     {this.renderTag()}
-                    <h3 classsName="card__text__title">{title}</h3>
+                    <h3 className="card__text__title">{title}</h3>
                     <div className="likes">
                         <img src={Heart} className="likes__icon"></img>
                         <h3>{likes}</h3>

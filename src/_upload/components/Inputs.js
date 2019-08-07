@@ -37,7 +37,7 @@ class Input extends React.Component {
                     <h3>Dodaj novi sastojak</h3>
                 </div>
 
-
+                <button className="buttonUpload">Objavi</button>
             </div >
         )
     }

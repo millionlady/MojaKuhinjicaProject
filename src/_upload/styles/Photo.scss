@@ -17,6 +17,9 @@
         justify-content: center;
         //width: 50%;
         height: 300px;
+        @media (max-width:768px) {
+           margin-right: 32px;
+        }
         &__text1{
             margin-bottom: 16px;
         }
