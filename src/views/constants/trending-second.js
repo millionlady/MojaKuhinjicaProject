@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        title: 'Najpoularniji 1',
+        title: 'Sok od borovnice',
         likes: 22,
         tags: [
             {
@@ -20,7 +20,7 @@ export default [
     },
     {
         id: 2,
-        title: 'Najpoularniji 2',
+        title: 'Kiflica pogača',
         likes: 15,
         tags: [
             {
@@ -31,7 +31,7 @@ export default [
     },
     {
         id: 3,
-        title: 'Najpoularniji 3',
+        title: 'Pizza s povrćem',
         likes: 12,
         tags: [
             {

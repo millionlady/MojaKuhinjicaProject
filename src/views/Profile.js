@@ -2,7 +2,7 @@ import React from 'react';
 import ProfileInfo from '../_profile/components/ProfileInfo';
 import MyPosts from '../_profile/components/MyPosts';
 import myPostsData from './constants/my-posts';
-
+import Nav from '../common/components/Nav';
 import { connect } from 'react-redux';
 import { getMypostsSuccess } from '../_profile/actions/profile-actions';
 
@@ -16,6 +16,7 @@ class Profile extends React.Component {
         const { displayPosts } = this.props;
         return (
             <div>
+                <Nav></Nav>
                 <ProfileInfo></ProfileInfo>
                 <MyPosts uploads={displayPosts}></MyPosts>
             </div>

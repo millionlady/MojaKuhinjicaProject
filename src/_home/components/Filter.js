@@ -10,9 +10,9 @@ class Filter extends React.Component {
 
                 <div className="filter__tab">
                     <div className="filter__tab__text"><h2>Novo</h2></div>
-                    <div className="filter__tab__text"><h2>Novo</h2></div>
-                    <div className="filter__tab__text"><h2>Novo</h2></div>
-                    <div className="filter__tab__text"><h2>Novo</h2></div>
+                    <div className="filter__tab__text"><h2>Slano</h2></div>
+                    <div className="filter__tab__text"><h2>Slatko</h2></div>
+                    <div className="filter__tab__text"><h2>Piće</h2></div>
                 </div>
 
                 <div className="filter__tag">

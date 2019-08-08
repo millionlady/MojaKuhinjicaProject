@@ -6,7 +6,7 @@ class ButtonAction extends React.Component {
 
         return (
             <div>
-                <button className="buttonAction">Dodaj recept</button>
+                <button className="buttonAction" onClick={this.props.onClick}>Dodaj recept</button>
             </div>
 
         )

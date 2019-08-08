@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        title: 'Naslov jedaaaan',
+        title: 'Torta s čokoladom i jogurtom',
         likes: 32,
         tags: [
             {
@@ -12,7 +12,7 @@ export default [
     },
     {
         id: 2,
-        title: 'Naslov dvaaaaa',
+        title: 'Pasta sa spanaćem i piletinom',
         likes: 12,
         tags: [
             {
@@ -23,7 +23,7 @@ export default [
     },
     {
         id: 3,
-        title: 'Naslov triiiiiii',
+        title: 'Krompir sa začinima',
         likes: 0,
         tags: [
             {

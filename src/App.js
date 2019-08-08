@@ -9,6 +9,9 @@ import { configureStore } from './store';
 import { Provider } from 'react-redux';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
+
+export const history = createBrowserHistory();
 
 const { store } = configureStore();
 
@@ -16,7 +19,7 @@ function App() {
   return (
 
     <Provider store={store}>
-      <Router>
+      <Router history={history}>
         <div>
           <Switch>
             <Route exact path='/' component={Home} />

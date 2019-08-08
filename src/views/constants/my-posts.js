@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        title: 'Naslov jedaaaan',
+        title: 'Sok od borovnice',
         likes: 32,
         tags: [
             {
@@ -12,7 +12,7 @@ export default [
     },
     {
         id: 2,
-        title: 'Naslov dvaaaaa',
+        title: 'Kiflica pogača',
         likes: 12,
         tags: [
             {
@@ -23,7 +23,7 @@ export default [
     },
     {
         id: 3,
-        title: 'Naslov triiiiiii',
+        title: 'Pizza s povrćem',
         likes: 0,
         tags: [
             {
