@@ -21,9 +21,11 @@ class Recipe extends React.Component {
         return (
             <div className="recipeView">
                 <Nav></Nav>
-                <div className="recipeView__content">
-                    <Main recipeDataMain={displayRecipe}></Main>
-                    <Side recipeDataSide={displayRecipe}></Side>
+                <div className="wrap">
+                    <div className="recipeView__content">
+                        <Main recipeDataMain={displayRecipe}></Main>
+                        <Side recipeDataSide={displayRecipe}></Side>
+                    </div>
                 </div>
             </div>
         )

@@ -6,6 +6,8 @@ import Nav from '../common/components/Nav';
 import { connect } from 'react-redux';
 import { getMypostsSuccess } from '../_profile/actions/profile-actions';
 
+import "./styles/Profile.scss";
+
 class Profile extends React.Component {
     componentDidMount() {
         const { setRecipesData } = this.props;
@@ -15,10 +17,12 @@ class Profile extends React.Component {
     render() {
         const { displayPosts } = this.props;
         return (
-            <div>
+            <div className="profileView">
                 <Nav></Nav>
-                <ProfileInfo></ProfileInfo>
-                <MyPosts uploads={displayPosts}></MyPosts>
+                <div className="wrap">
+                    <ProfileInfo></ProfileInfo>
+                    <MyPosts uploads={displayPosts}></MyPosts>
+                </div>
             </div>
         )
     }

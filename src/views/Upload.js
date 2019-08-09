@@ -11,9 +11,11 @@ class Upload extends React.Component {
         return (
             <div className="uploadView">
                 <Nav></Nav>
-                <div className="uploadView__content">
-                    <PhotoTags></PhotoTags>
-                    <Inputs></Inputs>
+                <div className="wrap">
+                    <div className="uploadView__content">
+                        <PhotoTags></PhotoTags>
+                        <Inputs></Inputs>
+                    </div>
                 </div>
             </div>
         )

@@ -1,20 +1,12 @@
 export default [
     {
         id: 1,
-        title: 'Sok od borovnice',
+        title: 'Zapečene tikvice sa pirinčem i začinjenom piletinom u  bešamel sosu',
         likes: 22,
         tags: [
             {
                 id: 1,
-                name: 'tag1'
-            },
-            {
-                id: 2,
-                name: 'tag222'
-            },
-            {
-                id: 3,
-                name: 'tag333'
+                name: '#sok'
             }
         ]
     },
@@ -25,7 +17,7 @@ export default [
         tags: [
             {
                 id: 2,
-                name: 'tag1'
+                name: '#pecivo'
             }
         ]
     },
@@ -36,7 +28,7 @@ export default [
         tags: [
             {
                 id: 3,
-                name: 'tag1'
+                name: '#pizza'
             }
         ]
     }

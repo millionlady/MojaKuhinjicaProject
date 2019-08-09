@@ -6,7 +6,7 @@ export default [
         tags: [
             {
                 id: 1,
-                name: 'tag1'
+                name: '#čokolada'
             }
         ]
     },
@@ -17,7 +17,7 @@ export default [
         tags: [
             {
                 id: 1,
-                name: 'tag1'
+                name: '#pasta'
             }
         ]
     },
@@ -28,15 +28,7 @@ export default [
         tags: [
             {
                 id: 1,
-                name: 'tag1'
-            },
-            {
-                id: 2,
-                name: 'tag2'
-            },
-            {
-                id: 3,
-                name: 'tag1'
+                name: '#krompir'
             }
         ]
     },

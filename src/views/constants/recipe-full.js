@@ -1,6 +1,6 @@
 export default {
     id: 1,
-    title: 'Zobene pločice sa suhim voćem i sjemenkama',
+    title: 'Zobene pločice sa suhim voćem i sjemenkama od bundeve i suncokreta',
     tags: [
         {
             id: 1,

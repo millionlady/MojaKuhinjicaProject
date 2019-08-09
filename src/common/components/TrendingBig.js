@@ -3,6 +3,7 @@ import '../styles/TrendingBig.scss';
 import TagDisable from './TagDisable';
 import Food from '../assets/food.jpg';
 
+import { Link } from 'react-router-dom';
 import Heart from '../../_home/assets/heart-outlined.svg';
 
 class TrendingBig extends React.Component {
@@ -18,7 +19,9 @@ class TrendingBig extends React.Component {
 
         return (
             <div className="trending__left">
-                <div className="trending__div"><img src={Food} className="trending__left__picture"></img></div>
+                <Link to="/recipe">
+                    <div className="trending__div"><img src={Food} className="trending__left__picture"></img></div>
+                </Link>
                 <div>
                     <div className="trending__left__tag">
                         {this.renderTag()}

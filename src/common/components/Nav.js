@@ -12,11 +12,17 @@ class Nav extends React.Component {
     render() {
         return (
             <div className="nav">
-                <img src={Logo} className="nav__logo" />
+                <Link className="nav__logo" to="/">
+                    <div > <img src={Logo} /></div>
+                </Link>
+
                 <Link to="/upload">
                     <ButtonAction className="nav__button" ></ButtonAction>
                 </Link>
-                <img src={ProfilePic} className="nav__picture" />
+
+                <Link to="/profile">
+                    <img src={ProfilePic} className="nav__picture" />
+                </Link>
             </div>
 
         )

@@ -1,23 +1,23 @@
 export default [
     {
         id: 1,
-        title: 'Sok od borovnice',
+        title: 'Pizza s povrćem',
         likes: 32,
         tags: [
             {
                 id: 1,
-                name: 'tag1'
+                name: '#povrće'
             }
         ]
     },
     {
         id: 2,
-        title: 'Kiflica pogača',
+        title: 'Pizza s povrćem',
         likes: 12,
         tags: [
             {
                 id: 1,
-                name: 'tag1'
+                name: '#pizza'
             }
         ]
     },
@@ -28,7 +28,7 @@ export default [
         tags: [
             {
                 id: 1,
-                name: 'tag1'
+                name: '#pizza'
             }
         ]
     }
